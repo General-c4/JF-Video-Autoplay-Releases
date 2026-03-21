@@ -1,7 +1,7 @@
 # 🎬 JF Video Autoplay Plugin
 
 <p align="center">
-  <img src="https://github.com/General-c4/JF-Video-Autoplay-Releases/blob/main/Image/logo-JF.png" width="200"/>
+  <img src="https://github.com/General-c4/JF-Video-Autoplay-Releases/blob/main/Image/logo--JF.png" width="200"/>
 </p>
 
 <p align="center">
