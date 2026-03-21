@@ -6,7 +6,7 @@
     "description": "Displays a hero banner on the home page with auto-playing trailers, logos, and quick details.",
     "owner": "General-c4",
     "category": "General",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/General-c4/JF-Video-Autoplay-Releases/main/Image/logo--JF.png",
     "versions": [
       {
         "version": "1.0.0",
