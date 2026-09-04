@@ -9,14 +9,6 @@
     "imageUrl": "https://raw.githubusercontent.com/General-c4/JF-Video-Autoplay-Releases/main/Image/thumb-JF.png",
     "versions": [
       {
-        "version": "1.1.1",
-        "changelog": "Test release candidate with revision-aware image cache keys, controlled automatic and manual media refresh, trailer and yt-dlp cache invalidation, seamless image replacement, and media lifecycle cleanup. This is a pre-release intended for isolated Jellyfin 10.11.x testing.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/General-c4/JF-Video-Autoplay-Releases/releases/download/v1.1.1-rc1/Jellyfin.Plugin.VideoAutoplay-1.1.1-rc1.zip",
-        "checksum": "efbb3c97177ff162cc24a8b1180b22a8",
-        "timestamp": "2026-09-04T19:48:19Z"
-      },
-      {
         "version": "1.1.0",
         "changelog": "Upgraded to Jellyfin 10.11.x and .NET 9. Removed the shared API key and switched frontend requests to the authenticated Jellyfin session. Secured administrative endpoints, file-path handling, index injection, and yt-dlp execution. Fixed autoplay settings, stale trailer rendering, empty tabs, resource cleanup, thumbnail navigation, and duplicate configuration handlers. Added local HLS.js, reproducible packaging, and automated tests.",
         "targetAbi": "10.11.0.0",
