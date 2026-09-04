@@ -118,6 +118,14 @@ It enhances the browsing experience with dynamic visuals, smooth playback, and i
 
 ## 🚀 Installation | التثبيت
 
+### Version 1.1.0 compatibility and upgrade notes
+
+VideoAutoplay v1.1.0 targets Jellyfin Server 10.11.x, Jellyfin plugin ABI 10.11.0.0, and .NET 9.
+
+When upgrading manually, replace the existing plugin DLL with the v1.1.0 DLL and restart Jellyfin. If the home-page integration is missing after the restart, use the plugin configuration page to inject it again. The former shared API-key setting is obsolete; browser requests now use the authenticated Jellyfin session.
+
+Back up Jellyfin Web's `index.html` before testing. Jellyfin Web updates may replace that file, so run the injection again after a web update if the integration disappears.
+
 ### 🟢 الطريقة السريعة (من داخل Jellyfin)
 
 1. اذهب إلى:
