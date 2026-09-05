@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/General-c4/JF-Video-Autoplay-Releases/main/Image/thumb-JF.png",
     "versions": [
       {
+        "version": "1.1.2.1",
+        "changelog": "EXPERIMENTAL VideoAutoplay 1.1.2 RC1. SPA dependency readiness and remount recovery, duplicate runtime suppression, invalid_executable iframe fallback and negative caching. Live testing requested. Stable production release remains v1.0.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/General-c4/JF-Video-Autoplay-Releases/releases/download/v1.1.2-rc1/Jellyfin.Plugin.VideoAutoplay.zip",
+        "checksum": "65b385958013e03bad5a5489fc9a38e3",
+        "timestamp": "2026-09-05T01:47:01Z"
+      },
+      {
         "version": "1.1.1",
         "changelog": "Fixed delayed or stale artwork and trailer updates, added revision-aware automatic and manual media refresh, fixed the RC1 media-cache loader regression, enforced deterministic versioned dependency loading, upgraded legacy injection tags without duplication, and preserved authenticated frontend access without shared API keys.",
         "targetAbi": "10.11.0.0",
