@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/General-c4/JF-Video-Autoplay-Releases/main/Image/thumb-JF.png",
     "versions": [
       {
+        "version": "1.1.2.4",
+        "changelog": "EXPERIMENTAL VideoAutoplay 1.1.2 RC4. Added secure bounded Jellyfin Web path discovery and automatic injection through WebPath, JELLYFIN_WEB_DIR, --webdir, official Docker/Linux, portable, and Windows candidates; added container diagnostics and structured UI errors.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/General-c4/JF-Video-Autoplay-Releases/releases/download/v1.1.2-rc4/Jellyfin.Plugin.VideoAutoplay.zip",
+        "checksum": "5fee844204d95d7eb94c1d06e392ed8c",
+        "timestamp": "2026-09-10T02:26:53.935Z"
+      },
+      {
         "version": "1.1.2.3",
         "changelog": "EXPERIMENTAL VideoAutoplay 1.1.2 RC3. Fixed Jellyfin 12 TypeError: Illegal invocation by safely wrapping browser-native timers, added Arabic محتواي and structural home-library discovery, preserved Jellyfin 10.11 compatibility, and bounded DOM retry failures.",
         "targetAbi": "12.0.0.0",
